@@ -11,14 +11,23 @@
 
 💡 The file names indicate the process themselves.
 
-**01**: Scraped timezones and cities.
+<details>
+  <summary>👣 Steps</summary>
 
-**02**: Scraped emoji flags.
+  <p><strong>01</strong>: Scraped timezones and cities.</p>
 
-**03**: Identified countries with multiple timezones.
+  <p><strong>02</strong>: Scraped emoji flags.</p>
 
-**04**: First, I consulted ChatGPT and provided the content of `03_counted-countries.json` to ask for a Python dictionary with capital or widely accepted timezones for countries with multiple timezones. Afterward, I manually researched and verified the results and adapted the city names (values) to match the city names in the JSON from step *01*.
+  <p><strong>03</strong>: Identified countries with multiple timezones.</p>
 
-**05**: Created a JSON file (includes multiple timezones for each country).
+  <p><strong>04</strong>: First, I consulted ChatGPT and provided the content of <code>03_counted-countries.json</code> to ask for a Python dictionary with capital or widely accepted timezones for countries with multiple timezones. Afterward, I manually researched and verified the results and adapted the city names (values) to match the city names in the JSON from step <em>01</em>.</p>
 
-**06**: Used the Python dictionary from step *04* to create a JSON file with unique timezones for each country!
+  <p><strong>05</strong>: Created a JSON file (includes multiple timezones for each country).</p>
+
+  <p><strong>06</strong>: Used the Python dictionary from step <strong>04</strong> to create a JSON file with unique timezones for each country!</p>
+
+</details>
+
+#### 💻 Used by:
+This work is done as part of my personal project, [UtAZBot](https://t.me/UtAZBot), an inline utility Telegram bot built with Rust, to display local times for all countries in sorted order.
+<img src="https://github.com/user-attachments/assets/e659051b-ec1d-4f38-a0e8-4f9bf77e560f" width="382" height="577">
